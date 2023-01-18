@@ -7,7 +7,7 @@ class ThemeToggle extends React.Component {
     render() { 
         const { toggleTheme } = this.context;
         return (
-            <button onClick={toggleTheme}>Toggle Theme</button>
+            <button onClick={toggleTheme} style={{padding: "8px", border: "none", borderRadius:"5px" }}>Toggle Theme</button>
         );
     }
 }
